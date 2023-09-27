@@ -63,10 +63,6 @@ This is **bold**, while this is *italic*.
 with(mtcars, plot(hp, mpg))
 ```
 
-```{python}
-print("Hello World! Python here, do you miss R already?")
-```
-
 This is some other change so we can commit this file (with changes) and the new Dockerfile.
 Again.
 And again.
