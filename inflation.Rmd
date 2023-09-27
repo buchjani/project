@@ -1,6 +1,8 @@
 ---
 title: "Inflation Data"
-author: "Aaron Peikert"
+author: 
+ - Aaron Peikert
+ - with awesome modifications by Janine Buchholz
 date: "`r Sys.Date()`"
 output: pdf_document
 repro:
@@ -13,6 +15,8 @@ repro:
     - R/prepare_inflation.R
   data:
     - data/raw/inflation.rds
+header-includes: 
+  - \renewcommand{\and}{\\}
 ---
 
 ```{r setup, include=FALSE}
