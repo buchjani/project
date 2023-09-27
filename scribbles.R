@@ -21,3 +21,8 @@ usethis::use_github()
 repro::automate()
 repro::use_gha_docker()
 usethis::browse_github_actions()
+
+
+## make with repro 
+repro::use_make_publish()
+repro::use_gha_publish()
