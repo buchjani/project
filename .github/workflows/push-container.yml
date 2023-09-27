@@ -1,4 +1,4 @@
-name: Create and publish the required Docker image 
+name: Create and publish the required Docker image
 
 on:
   push:
