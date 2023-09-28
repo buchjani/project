@@ -1,9 +1,9 @@
 # use a function without loading the package:
 # package::function
 usethis::use_git_config(
-  user.name = "Quenn Janine", # <-- change to your name
+  user.name = "Queen Janine", # <-- change to your name
   user.email = "janine.buchholz@hu-berlin.de", # <-- and your email
-  init.defaultBranch = "mainbrain") # <-- not necessary but kinder than 'master'
+  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
 
 
 usethis::use_git()
@@ -27,3 +27,8 @@ usethis::browse_github_actions()
 ## make with repro 
 repro::use_make_publish()
 repro::use_gha_publish()
+
+
+#### day 2-----------------------
+install.packages('papaja')
+library('papaja')
