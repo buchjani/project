@@ -2,7 +2,7 @@
 .RData
 .Rproj.user
 *.html
-*.pdf
+# *.pdf
 *_withnotes.*
 *_bright.*
 images/
